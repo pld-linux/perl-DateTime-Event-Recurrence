@@ -21,6 +21,7 @@ BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl(DateTime) >= 0.27
 BuildRequires:	perl(DateTime::Set) >= 0.17
 %endif
+Requires:	perl-DateTime >= 1:0.34-1.1
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -52,6 +53,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes CREDITS README TODO
-%dir %{perl_vendorlib}/DateTime/Event
 %{perl_vendorlib}/DateTime/Event/*.pm
 %{_mandir}/man3/*
