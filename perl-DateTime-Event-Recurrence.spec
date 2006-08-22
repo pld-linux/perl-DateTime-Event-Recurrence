@@ -8,7 +8,7 @@
 Summary:	DateTime::Event::Recurrence - DateTime::Set extension for create basic recurrence sets
 Name:		perl-DateTime-Event-Recurrence
 Version:	0.16
-Release:	2
+Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
@@ -18,8 +18,8 @@ URL:		http://search.cpan.org/dist/DateTime-Event-Recurrence/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
-BuildRequires:	perl(DateTime) >= 0.27
-BuildRequires:	perl(DateTime::Set) >= 0.17
+BuildRequires:	perl-DateTime >= 1:0.27
+BuildRequires:	perl-DateTime-Set >= 0.17
 %endif
 Requires:	perl-DateTime >= 1:0.34-1.1
 BuildArch:	noarch
