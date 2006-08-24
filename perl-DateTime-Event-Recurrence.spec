@@ -6,6 +6,7 @@
 %define	pdir	DateTime
 %define	pnam	Event-Recurrence
 Summary:	DateTime::Event::Recurrence - DateTime::Set extension for create basic recurrence sets
+Summary(pl):	DateTime::Event::Recurrence - rozszerzenie DateTime::Set o tworzenie prostych zbiorów rekurencyjnych
 Name:		perl-DateTime-Event-Recurrence
 Version:	0.16
 Release:	3
@@ -30,6 +31,12 @@ This module provides convenience methods that let you easily create
 DateTime::Set objects for various recurrences, such as "once a month"
 or "every day". You can also create more complicated recurrences, such
 as "every Monday, Wednesday and Thursday at 10:00 AM and 2:00 PM".
+
+%description -l pl
+Ten modu³ dostarcza wygodne metody pozwalaj±ce ³atwo tworzyæ obiekty
+DateTime::Set dla ró¿nych rekurencji, takich jak "raz w miesi±cu" czy
+"codziennie". Mo¿na tak¿e tworzyæ bardziej z³o¿one rekurencje, takie
+jak "ka¿dy poniedzia³ek, ¶roda i czwartek od 10:00 do 14:00".
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
