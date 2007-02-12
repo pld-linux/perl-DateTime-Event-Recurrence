@@ -6,7 +6,7 @@
 %define	pdir	DateTime
 %define	pnam	Event-Recurrence
 Summary:	DateTime::Event::Recurrence - DateTime::Set extension for create basic recurrence sets
-Summary(pl.UTF-8):   DateTime::Event::Recurrence - rozszerzenie DateTime::Set o tworzenie prostych zbiorów rekurencyjnych
+Summary(pl.UTF-8):	DateTime::Event::Recurrence - rozszerzenie DateTime::Set o tworzenie prostych zbiorów rekurencyjnych
 Name:		perl-DateTime-Event-Recurrence
 Version:	0.16
 Release:	4
