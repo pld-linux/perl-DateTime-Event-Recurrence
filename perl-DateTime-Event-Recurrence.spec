@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define	pdir	DateTime
 %define	pnam	Event-Recurrence
 Summary:	DateTime::Event::Recurrence - DateTime::Set extension for create basic recurrence sets
