@@ -8,7 +8,7 @@ Summary:	DateTime::Event::Recurrence - DateTime::Set extension for create basic 
 Summary(pl.UTF-8):	DateTime::Event::Recurrence - rozszerzenie DateTime::Set o tworzenie prostych zbiorów rekurencyjnych
 Name:		perl-DateTime-Event-Recurrence
 Version:	0.19
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
